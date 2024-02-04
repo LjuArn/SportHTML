@@ -9,6 +9,13 @@ body{
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
 
 .header{
     padding-top: 60px;
@@ -18,9 +25,9 @@ body{
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6{
+p{
     margin: 0;
-    font-weight: 700;
+    line-height: 1.37em;
 }
 
 h1{
@@ -30,11 +37,6 @@ h1{
 h2{
     font-size: 40px;
     text-align: center;
-}
-
-
-p{
-    margin: 0;
 }
 
 section{
@@ -66,10 +68,33 @@ section{
 
     color: #fff;
     font-size: 18px;
-    line-height: 136.7%; /* 24.606px */
     text-decoration: none;
     width: 218px;
 }
+
+
+.btn{ 
+    border-radius: 100px;
+    background: #FF6861;
+    color: white;
+    padding: 22px 70px;
+    display: block;
+    align-items: flex-start;
+    text-decoration: none;
+    font-size: 18px;
+    width: 218px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background: #c9372f;
+}
+
+
+
+
+
+
 
 .logo{
     margin: 0 auto;
