@@ -101,16 +101,16 @@ section{
 }
 
 .logo{
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
 }
 
-.all_info{
+.all-info{
     display: flex;
+    margin: 20px auto 0 auto;
     flex-direction: column;
     gap: 41px;
     width: 720px;
-    margin: 70px auto 0 auto;
 }
 
 .digit-item{
@@ -132,11 +132,44 @@ section{
     margin-right: 34px;
 }
 
+
+.digit-item:hover .digit{
+    background: #000;
+    color: #fff;
+}
+
 .digit-title{
     font-size: 30px;
+    margin-bottom: 11 px;
 }
 
-.digit-text{
-    
+.practice-wrap{
+    background: linear-gradient(102deg, #E8FFE8 17.38%,  #D1F0FF 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 93px 150px 89px 125px;
 }
 
+.practice-block{
+    width: 465px;
+}
+
+.practice-title{
+    text-align: left;
+}
+
+.practice-introtext{
+    margin: 24px 0;
+    width: 371px;
+}
+
+.ball{
+    margin-right: 90px;
+}
+
+.footer{
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
