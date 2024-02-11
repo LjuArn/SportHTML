@@ -59,26 +59,29 @@ section{
     margin: 30px;
 }
 
-.btn{
+.btn1{
     border-radius: 100px;
-    background: #000;
+    background: rgb(117, 187, 12); 
+    color: #fff;
     display: block;
     padding: 22px 70px;
     align-items: flex-start;
-
-    color: #fff;
-    font-size: 18px;
     text-decoration: none;
+    font-size: 18px;
     width: 218px;
+    transition: all 0.5s ease;
 }
 
+.btn1:hover{
+    background: #1fca0f;
+}
 
 .btn{ 
     border-radius: 100px;
     background: #FF6861;
     color: white;
-    padding: 22px 70px;
     display: block;
+    padding: 22px 70px;
     align-items: flex-start;
     text-decoration: none;
     font-size: 18px;
@@ -91,14 +94,29 @@ section{
 }
 
 
-
-
-
-
+.buttens-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .logo{
     margin: 0 auto;
     display: block;
+}
+
+.all_info{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.digit-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
 }
 
 .digit{
@@ -114,13 +132,6 @@ section{
     margin-right: 34px;
 }
 
-.digit-item{
-    display: flex;
-    align-items: center;
-    margin-bottom: 11px;
-}
-
-
 .digit-title{
     font-size: 30px;
 }
@@ -128,3 +139,4 @@ section{
 .digit-text{
     
 }
+
