@@ -173,3 +173,9 @@ section{
     text-align: center;
     font-size: 15px;
 }
+/* Responsive */
+
+/* Large:  992px - 1199px*/
+@media (max-weight: 1199px){
+
+}
