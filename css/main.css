@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -48,6 +52,10 @@ section{
     align-items: center;
     justify-content: space-between;
     margin-top: 79px;
+}
+
+.watch{
+    width: 465px;
 }
 
 .offer{
@@ -103,6 +111,7 @@ section{
 .logo{
     display: block;
     margin: 0 auto;
+    max-width: 145px;
 }
 
 .all-info{
@@ -164,8 +173,22 @@ section{
     width: 371px;
 }
 
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+            width: 30px;
+    }
+    100% {
+        transform: rotate(360deg);
+        width: 1000px;
+    }
+}
+
 .ball{
     margin-right: 90px;
+    animation: 5s linear 0s normal none infinite running rot;
 }
 
 .footer{
@@ -211,15 +234,59 @@ section{
 }
 
 /* Small:  576px - 767px*/
-@media (max-weight: 767px){
-    .container{
+@media (max-width: 767px){
+    .container {
         max-width: 540px;
+    }
+    .digit-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .all-info {
+        width: auto;
+    }
+    .practice-wrap{
+        gap: 50px;
     }
 }
 
 /* Extra small:  0px (320px) - 575px*/
-@media (max-weight: 575px){
+@media (max-width: 575px){
     .container{
         max-width: 0 15px;
+    }
+    .watch{
+        width: 100%;
+        display: block;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    .ball{
+        width: 200px;
+    }
+ 
+    .buttens-two{
+        width: auto;
+    }
+ 
+    .practice-wrap{
+        padding: 70px 20px;
+    }
+
+    .practice-introtext{
+        width: auto;
+    }
+
+    section{
+        padding-top: 90px;
+    }
+    .footer{
+        padding: 90px 0;
+    }
+    .offer-wrapper{
+        margin-top: 50px;
     }
 }
