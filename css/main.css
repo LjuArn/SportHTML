@@ -182,7 +182,7 @@ section{
     }
     100% {
         transform: rotate(360deg);
-        width: 1000px;
+        width: 300px;
     }
 }
 
